@@ -32,7 +32,7 @@ app.use(express.urlencoded({ limit: "200mb", extended: true }));
 app.use(cookieParser());
 // app.use(cors({ origin: "*", credentials: true }));
 app.use(cors({
-    origin: ['http://localhost:3000', 'http://localhost:5173','https://fontta-tze4.vercel.app/'],  // ✅ Must match your frontend origin
+    origin: ['http://localhost:3000', 'http://localhost:5173','https://fontta-tze4.vercel.app'],  // ✅ Must match your frontend origin
     credentials: true                 // ✅ Allow credential(cookies, auth headers)
 }));
 
